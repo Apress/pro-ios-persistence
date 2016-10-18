@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C76B4DF119EC76C100CB1477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B4DF019EC76C100CB1477 /* main.m */; };
+		C76B4DF419EC76C100CB1477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B4DF319EC76C100CB1477 /* AppDelegate.m */; };
+		C76B4DF719EC76C100CB1477 /* SecureNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C76B4DF519EC76C100CB1477 /* SecureNote.xcdatamodeld */; };
+		C76B4DFA19EC76C100CB1477 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B4DF919EC76C100CB1477 /* MasterViewController.m */; };
+		C76B4DFD19EC76C100CB1477 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B4DFC19EC76C100CB1477 /* DetailViewController.m */; };
+		C76B4E0019EC76C100CB1477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76B4DFE19EC76C100CB1477 /* Main.storyboard */; };
+		C76B4E0219EC76C100CB1477 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76B4E0119EC76C100CB1477 /* Images.xcassets */; };
+		C76B4E0519EC76C100CB1477 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C76B4E0319EC76C100CB1477 /* LaunchScreen.xib */; };
+		C76B4E1119EC76C100CB1477 /* SecureNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B4E1019EC76C100CB1477 /* SecureNoteTests.m */; };
+		C76B4E1C19EC770E00CB1477 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B4E1B19EC770E00CB1477 /* Note.m */; };
+		C76B4E1F19EC7D9C00CB1477 /* EncryptionTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B4E1E19EC7D9C00CB1477 /* EncryptionTransformer.m */; };
+		C76B4E2919ED3E3100CB1477 /* SSKeychain.strings in Resources */ = {isa = PBXBuildFile; fileRef = C76B4E2319ED3E3100CB1477 /* SSKeychain.strings */; };
+		C76B4E2A19ED3E3100CB1477 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B4E2619ED3E3100CB1477 /* SSKeychain.m */; };
+		C76B4E2B19ED3E3100CB1477 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B4E2819ED3E3100CB1477 /* SSKeychainQuery.m */; };
+		C76B4E2E19ED3F0900CB1477 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76B4E2D19ED3F0900CB1477 /* PasswordViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C76B4E0B19EC76C100CB1477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C76B4DE319EC76C100CB1477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C76B4DEA19EC76C100CB1477;
+			remoteInfo = SecureNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C76B4DEB19EC76C100CB1477 /* SecureNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76B4DEF19EC76C100CB1477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76B4DF019EC76C100CB1477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C76B4DF219EC76C100CB1477 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C76B4DF319EC76C100CB1477 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C76B4DF619EC76C100CB1477 /* SecureNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecureNote.xcdatamodel; sourceTree = "<group>"; };
+		C76B4DF819EC76C100CB1477 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C76B4DF919EC76C100CB1477 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C76B4DFB19EC76C100CB1477 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C76B4DFC19EC76C100CB1477 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C76B4DFF19EC76C100CB1477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C76B4E0119EC76C100CB1477 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C76B4E0419EC76C100CB1477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C76B4E0A19EC76C100CB1477 /* SecureNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76B4E0F19EC76C100CB1477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76B4E1019EC76C100CB1477 /* SecureNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureNoteTests.m; sourceTree = "<group>"; };
+		C76B4E1A19EC770E00CB1477 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		C76B4E1B19EC770E00CB1477 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		C76B4E1D19EC7D9C00CB1477 /* EncryptionTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTransformer.h; sourceTree = "<group>"; };
+		C76B4E1E19EC7D9C00CB1477 /* EncryptionTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTransformer.m; sourceTree = "<group>"; };
+		C76B4E2419ED3E3100CB1477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SSKeychain.strings; sourceTree = "<group>"; };
+		C76B4E2519ED3E3100CB1477 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		C76B4E2619ED3E3100CB1477 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		C76B4E2719ED3E3100CB1477 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		C76B4E2819ED3E3100CB1477 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		C76B4E2C19ED3F0900CB1477 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		C76B4E2D19ED3F0900CB1477 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76B4DE819EC76C100CB1477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76B4E0719EC76C100CB1477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76B4DE219EC76C100CB1477 = {
+			isa = PBXGroup;
+			children = (
+				C76B4DED19EC76C100CB1477 /* SecureNote */,
+				C76B4E0D19EC76C100CB1477 /* SecureNoteTests */,
+				C76B4DEC19EC76C100CB1477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76B4DEC19EC76C100CB1477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76B4DEB19EC76C100CB1477 /* SecureNote.app */,
+				C76B4E0A19EC76C100CB1477 /* SecureNoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76B4DED19EC76C100CB1477 /* SecureNote */ = {
+			isa = PBXGroup;
+			children = (
+				C76B4E2219ED3E3100CB1477 /* SSKeychain */,
+				C76B4DF219EC76C100CB1477 /* AppDelegate.h */,
+				C76B4DF319EC76C100CB1477 /* AppDelegate.m */,
+				C76B4DF819EC76C100CB1477 /* MasterViewController.h */,
+				C76B4DF919EC76C100CB1477 /* MasterViewController.m */,
+				C76B4DFB19EC76C100CB1477 /* DetailViewController.h */,
+				C76B4DFC19EC76C100CB1477 /* DetailViewController.m */,
+				C76B4DFE19EC76C100CB1477 /* Main.storyboard */,
+				C76B4E0119EC76C100CB1477 /* Images.xcassets */,
+				C76B4E0319EC76C100CB1477 /* LaunchScreen.xib */,
+				C76B4DF519EC76C100CB1477 /* SecureNote.xcdatamodeld */,
+				C76B4E1A19EC770E00CB1477 /* Note.h */,
+				C76B4E1B19EC770E00CB1477 /* Note.m */,
+				C76B4DEE19EC76C100CB1477 /* Supporting Files */,
+				C76B4E1D19EC7D9C00CB1477 /* EncryptionTransformer.h */,
+				C76B4E1E19EC7D9C00CB1477 /* EncryptionTransformer.m */,
+				C76B4E2C19ED3F0900CB1477 /* PasswordViewController.h */,
+				C76B4E2D19ED3F0900CB1477 /* PasswordViewController.m */,
+			);
+			path = SecureNote;
+			sourceTree = "<group>";
+		};
+		C76B4DEE19EC76C100CB1477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76B4DEF19EC76C100CB1477 /* Info.plist */,
+				C76B4DF019EC76C100CB1477 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76B4E0D19EC76C100CB1477 /* SecureNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C76B4E1019EC76C100CB1477 /* SecureNoteTests.m */,
+				C76B4E0E19EC76C100CB1477 /* Supporting Files */,
+			);
+			path = SecureNoteTests;
+			sourceTree = "<group>";
+		};
+		C76B4E0E19EC76C100CB1477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76B4E0F19EC76C100CB1477 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76B4E2219ED3E3100CB1477 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				C76B4E2319ED3E3100CB1477 /* SSKeychain.strings */,
+				C76B4E2519ED3E3100CB1477 /* SSKeychain.h */,
+				C76B4E2619ED3E3100CB1477 /* SSKeychain.m */,
+				C76B4E2719ED3E3100CB1477 /* SSKeychainQuery.h */,
+				C76B4E2819ED3E3100CB1477 /* SSKeychainQuery.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76B4DEA19EC76C100CB1477 /* SecureNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76B4E1419EC76C100CB1477 /* Build configuration list for PBXNativeTarget "SecureNote" */;
+			buildPhases = (
+				C76B4DE719EC76C100CB1477 /* Sources */,
+				C76B4DE819EC76C100CB1477 /* Frameworks */,
+				C76B4DE919EC76C100CB1477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureNote;
+			productName = SecureNote;
+			productReference = C76B4DEB19EC76C100CB1477 /* SecureNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C76B4E0919EC76C100CB1477 /* SecureNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76B4E1719EC76C100CB1477 /* Build configuration list for PBXNativeTarget "SecureNoteTests" */;
+			buildPhases = (
+				C76B4E0619EC76C100CB1477 /* Sources */,
+				C76B4E0719EC76C100CB1477 /* Frameworks */,
+				C76B4E0819EC76C100CB1477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C76B4E0C19EC76C100CB1477 /* PBXTargetDependency */,
+			);
+			name = SecureNoteTests;
+			productName = SecureNoteTests;
+			productReference = C76B4E0A19EC76C100CB1477 /* SecureNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76B4DE319EC76C100CB1477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Michael Privat and Rob Warner";
+				TargetAttributes = {
+					C76B4DEA19EC76C100CB1477 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C76B4E0919EC76C100CB1477 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C76B4DEA19EC76C100CB1477;
+					};
+				};
+			};
+			buildConfigurationList = C76B4DE619EC76C100CB1477 /* Build configuration list for PBXProject "SecureNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C76B4DE219EC76C100CB1477;
+			productRefGroup = C76B4DEC19EC76C100CB1477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76B4DEA19EC76C100CB1477 /* SecureNote */,
+				C76B4E0919EC76C100CB1477 /* SecureNoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76B4DE919EC76C100CB1477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76B4E2919ED3E3100CB1477 /* SSKeychain.strings in Resources */,
+				C76B4E0019EC76C100CB1477 /* Main.storyboard in Resources */,
+				C76B4E0519EC76C100CB1477 /* LaunchScreen.xib in Resources */,
+				C76B4E0219EC76C100CB1477 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76B4E0819EC76C100CB1477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76B4DE719EC76C100CB1477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76B4DFD19EC76C100CB1477 /* DetailViewController.m in Sources */,
+				C76B4E2B19ED3E3100CB1477 /* SSKeychainQuery.m in Sources */,
+				C76B4E2A19ED3E3100CB1477 /* SSKeychain.m in Sources */,
+				C76B4DFA19EC76C100CB1477 /* MasterViewController.m in Sources */,
+				C76B4DF419EC76C100CB1477 /* AppDelegate.m in Sources */,
+				C76B4E1F19EC7D9C00CB1477 /* EncryptionTransformer.m in Sources */,
+				C76B4E1C19EC770E00CB1477 /* Note.m in Sources */,
+				C76B4DF119EC76C100CB1477 /* main.m in Sources */,
+				C76B4DF719EC76C100CB1477 /* SecureNote.xcdatamodeld in Sources */,
+				C76B4E2E19ED3F0900CB1477 /* PasswordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76B4E0619EC76C100CB1477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76B4E1119EC76C100CB1477 /* SecureNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C76B4E0C19EC76C100CB1477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C76B4DEA19EC76C100CB1477 /* SecureNote */;
+			targetProxy = C76B4E0B19EC76C100CB1477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C76B4DFE19EC76C100CB1477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76B4DFF19EC76C100CB1477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C76B4E0319EC76C100CB1477 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76B4E0419EC76C100CB1477 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C76B4E2319ED3E3100CB1477 /* SSKeychain.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76B4E2419ED3E3100CB1477 /* en */,
+			);
+			name = SSKeychain.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C76B4E1219EC76C100CB1477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C76B4E1319EC76C100CB1477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C76B4E1519EC76C100CB1477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecureNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C76B4E1619EC76C100CB1477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecureNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C76B4E1819EC76C100CB1477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SecureNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureNote.app/SecureNote";
+			};
+			name = Debug;
+		};
+		C76B4E1919EC76C100CB1477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SecureNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureNote.app/SecureNote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76B4DE619EC76C100CB1477 /* Build configuration list for PBXProject "SecureNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76B4E1219EC76C100CB1477 /* Debug */,
+				C76B4E1319EC76C100CB1477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76B4E1419EC76C100CB1477 /* Build configuration list for PBXNativeTarget "SecureNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76B4E1519EC76C100CB1477 /* Debug */,
+				C76B4E1619EC76C100CB1477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C76B4E1719EC76C100CB1477 /* Build configuration list for PBXNativeTarget "SecureNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76B4E1819EC76C100CB1477 /* Debug */,
+				C76B4E1919EC76C100CB1477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C76B4DF519EC76C100CB1477 /* SecureNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C76B4DF619EC76C100CB1477 /* SecureNote.xcdatamodel */,
+			);
+			currentVersion = C76B4DF619EC76C100CB1477 /* SecureNote.xcdatamodel */;
+			path = SecureNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C76B4DE319EC76C100CB1477 /* Project object */;
+}

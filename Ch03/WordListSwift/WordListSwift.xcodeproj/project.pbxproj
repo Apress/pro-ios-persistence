@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7E41E0B1987DF2E007CA2C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E41E0A1987DF2E007CA2C7 /* AppDelegate.swift */; };
+		C7E41E0D1987DF2E007CA2C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E41E0C1987DF2E007CA2C7 /* ViewController.swift */; };
+		C7E41E101987DF2E007CA2C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E41E0E1987DF2E007CA2C7 /* Main.storyboard */; };
+		C7E41E121987DF2E007CA2C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E41E111987DF2E007CA2C7 /* Images.xcassets */; };
+		C7E41E1E1987DF2E007CA2C7 /* WordListSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E41E1D1987DF2E007CA2C7 /* WordListSwiftTests.swift */; };
+		C7E41E281987DF4C007CA2C7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E41E271987DF4C007CA2C7 /* Persistence.swift */; };
+		C7E41E2E19893ABA007CA2C7 /* WordListSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7E41E2C19893ABA007CA2C7 /* WordListSwift.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7E41E181987DF2E007CA2C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E41DFD1987DF2E007CA2C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E41E041987DF2E007CA2C7;
+			remoteInfo = WordListSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7E41E051987DF2E007CA2C7 /* WordListSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordListSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E41E091987DF2E007CA2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E41E0A1987DF2E007CA2C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7E41E0C1987DF2E007CA2C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7E41E0F1987DF2E007CA2C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7E41E111987DF2E007CA2C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7E41E171987DF2E007CA2C7 /* WordListSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E41E1C1987DF2E007CA2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E41E1D1987DF2E007CA2C7 /* WordListSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListSwiftTests.swift; sourceTree = "<group>"; };
+		C7E41E271987DF4C007CA2C7 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C7E41E2D19893ABA007CA2C7 /* WordListSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordListSwift.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7E41E021987DF2E007CA2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E41E141987DF2E007CA2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7E41DFC1987DF2E007CA2C7 = {
+			isa = PBXGroup;
+			children = (
+				C7E41E071987DF2E007CA2C7 /* WordListSwift */,
+				C7E41E1A1987DF2E007CA2C7 /* WordListSwiftTests */,
+				C7E41E061987DF2E007CA2C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E41E061987DF2E007CA2C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E41E051987DF2E007CA2C7 /* WordListSwift.app */,
+				C7E41E171987DF2E007CA2C7 /* WordListSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7E41E071987DF2E007CA2C7 /* WordListSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C7E41E0A1987DF2E007CA2C7 /* AppDelegate.swift */,
+				C7E41E0C1987DF2E007CA2C7 /* ViewController.swift */,
+				C7E41E0E1987DF2E007CA2C7 /* Main.storyboard */,
+				C7E41E111987DF2E007CA2C7 /* Images.xcassets */,
+				C7E41E081987DF2E007CA2C7 /* Supporting Files */,
+				C7E41E271987DF4C007CA2C7 /* Persistence.swift */,
+				C7E41E2C19893ABA007CA2C7 /* WordListSwift.xcdatamodeld */,
+			);
+			path = WordListSwift;
+			sourceTree = "<group>";
+		};
+		C7E41E081987DF2E007CA2C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7E41E091987DF2E007CA2C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7E41E1A1987DF2E007CA2C7 /* WordListSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E41E1D1987DF2E007CA2C7 /* WordListSwiftTests.swift */,
+				C7E41E1B1987DF2E007CA2C7 /* Supporting Files */,
+			);
+			path = WordListSwiftTests;
+			sourceTree = "<group>";
+		};
+		C7E41E1B1987DF2E007CA2C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7E41E1C1987DF2E007CA2C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7E41E041987DF2E007CA2C7 /* WordListSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E41E211987DF2E007CA2C7 /* Build configuration list for PBXNativeTarget "WordListSwift" */;
+			buildPhases = (
+				C7E41E011987DF2E007CA2C7 /* Sources */,
+				C7E41E021987DF2E007CA2C7 /* Frameworks */,
+				C7E41E031987DF2E007CA2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordListSwift;
+			productName = WordListSwift;
+			productReference = C7E41E051987DF2E007CA2C7 /* WordListSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7E41E161987DF2E007CA2C7 /* WordListSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E41E241987DF2E007CA2C7 /* Build configuration list for PBXNativeTarget "WordListSwiftTests" */;
+			buildPhases = (
+				C7E41E131987DF2E007CA2C7 /* Sources */,
+				C7E41E141987DF2E007CA2C7 /* Frameworks */,
+				C7E41E151987DF2E007CA2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E41E191987DF2E007CA2C7 /* PBXTargetDependency */,
+			);
+			name = WordListSwiftTests;
+			productName = WordListSwiftTests;
+			productReference = C7E41E171987DF2E007CA2C7 /* WordListSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7E41DFD1987DF2E007CA2C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Michael Privat and Rob Warner";
+				TargetAttributes = {
+					C7E41E041987DF2E007CA2C7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C7E41E161987DF2E007CA2C7 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C7E41E041987DF2E007CA2C7;
+					};
+				};
+			};
+			buildConfigurationList = C7E41E001987DF2E007CA2C7 /* Build configuration list for PBXProject "WordListSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7E41DFC1987DF2E007CA2C7;
+			productRefGroup = C7E41E061987DF2E007CA2C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E41E041987DF2E007CA2C7 /* WordListSwift */,
+				C7E41E161987DF2E007CA2C7 /* WordListSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E41E031987DF2E007CA2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E41E101987DF2E007CA2C7 /* Main.storyboard in Resources */,
+				C7E41E121987DF2E007CA2C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E41E151987DF2E007CA2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7E41E011987DF2E007CA2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E41E281987DF4C007CA2C7 /* Persistence.swift in Sources */,
+				C7E41E0D1987DF2E007CA2C7 /* ViewController.swift in Sources */,
+				C7E41E0B1987DF2E007CA2C7 /* AppDelegate.swift in Sources */,
+				C7E41E2E19893ABA007CA2C7 /* WordListSwift.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E41E131987DF2E007CA2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E41E1E1987DF2E007CA2C7 /* WordListSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7E41E191987DF2E007CA2C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E41E041987DF2E007CA2C7 /* WordListSwift */;
+			targetProxy = C7E41E181987DF2E007CA2C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7E41E0E1987DF2E007CA2C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7E41E0F1987DF2E007CA2C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7E41E1F1987DF2E007CA2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7E41E201987DF2E007CA2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7E41E221987DF2E007CA2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WordListSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7E41E231987DF2E007CA2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WordListSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7E41E251987DF2E007CA2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WordListSwift.app/WordListSwift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WordListSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C7E41E261987DF2E007CA2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WordListSwift.app/WordListSwift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WordListSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7E41E001987DF2E007CA2C7 /* Build configuration list for PBXProject "WordListSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E41E1F1987DF2E007CA2C7 /* Debug */,
+				C7E41E201987DF2E007CA2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E41E211987DF2E007CA2C7 /* Build configuration list for PBXNativeTarget "WordListSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E41E221987DF2E007CA2C7 /* Debug */,
+				C7E41E231987DF2E007CA2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7E41E241987DF2E007CA2C7 /* Build configuration list for PBXNativeTarget "WordListSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E41E251987DF2E007CA2C7 /* Debug */,
+				C7E41E261987DF2E007CA2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7E41E2C19893ABA007CA2C7 /* WordListSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7E41E2D19893ABA007CA2C7 /* WordListSwift.xcdatamodel */,
+			);
+			currentVersion = C7E41E2D19893ABA007CA2C7 /* WordListSwift.xcdatamodel */;
+			path = WordListSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7E41DFD1987DF2E007CA2C7 /* Project object */;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="14A388a" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Person" representedClassName="Person" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="selfies" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Selfie" inverseName="people" inverseEntity="Selfie" syncable="YES"/>
+    </entity>
+    <entity name="Selfie" representedClassName="Selfie" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="people" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="selfies" inverseEntity="Person" syncable="YES"/>
+        <relationship name="socialNetworks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SocialNetwork" inverseName="selfies" inverseEntity="SocialNetwork" syncable="YES"/>
+    </entity>
+    <entity name="SocialNetwork" representedClassName="SocialNetwork" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="selfies" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Selfie" inverseName="socialNetworks" inverseEntity="Selfie" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="-234" positionY="110" width="128" height="88"/>
+        <element name="Selfie" positionX="-54" positionY="-9" width="128" height="103"/>
+        <element name="SocialNetwork" positionX="124" positionY="128" width="128" height="90"/>
+    </elements>
+</model>

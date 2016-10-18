@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6208.6" systemVersion="14A298i" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Word" syncable="YES">
+        <attribute name="length" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="wordCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WordCategory" inverseName="words" inverseEntity="WordCategory" syncable="YES"/>
+    </entity>
+    <entity name="WordCategory" syncable="YES">
+        <attribute name="firstLetter" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="words" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Word" inverseName="wordCategory" inverseEntity="Word" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="WordCategory" positionX="-207" positionY="-81" width="128" height="73"/>
+        <element name="Word" positionX="7" positionY="-43" width="128" height="88"/>
+    </elements>
+</model>
